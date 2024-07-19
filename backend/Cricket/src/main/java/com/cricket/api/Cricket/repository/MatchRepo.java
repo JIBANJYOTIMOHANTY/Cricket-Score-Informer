@@ -1,10 +1,9 @@
 package com.cricket.api.Cricket.repository;
 
-import java.util.Optional;
-
+import com.cricket.api.Cricket.model.Match;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.cricket.api.Cricket.model.Match;
+import java.util.Optional;
 
 public interface MatchRepo extends JpaRepository<Match, Integer>{
 
