@@ -6,6 +6,7 @@ import Footer from './Footer'
 
 const Live = () => {
   const [matches, setMatches] = useState([])
+  
   const callAPI = () => {
     getLiveMatches().then((response) => {
       setMatches(response.data)

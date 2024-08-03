@@ -20,9 +20,9 @@ const History = () => {
       </Helmet>
       <Header />
       <div className='bg-white '>
-      <h1 className='text-4xl  font-extrabold underline mb-5 font-serif text-center text-gray-800'>History Matches </h1>
+        <h1 className='text-4xl  font-extrabold underline mb-5 font-serif text-center text-gray-800'>History Matches </h1>
         {matches.map((item) => (
-          item.status == "COMPLETED" && 
+          item.status == "COMPLETED" &&
           <div className='bg-white m-auto w-3/4  h-80'>
             <div class="bg-white shadow-lg rounded-lg p-6 w-full ">
               <div class="text-center mb-4">
@@ -58,7 +58,7 @@ const History = () => {
 
       <div>
 
-      <Footer/>
+        <Footer />
       </div>
     </div>
   )

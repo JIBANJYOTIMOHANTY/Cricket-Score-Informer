@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Helmet } from 'react-helmet'
 import Header from './Header'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+  useEffect(()=>{
+    
+  },[])
   return (
     <div>
       <Header />
